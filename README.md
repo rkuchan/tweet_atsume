@@ -8,3 +8,5 @@ Meow.
 * [ ] Fetch relevant Neko Atsume data from the Twitter API
 * [ ] Graph occurrences of the Neko Atsume hashtag over time
 * [ ] Graph each cat's popularity over time
+* [ ] Display regional heat map of Neko Atsume tweets
+* [ ] Make use of cat heads everywhere
