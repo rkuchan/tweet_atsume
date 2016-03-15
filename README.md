@@ -1,41 +1,10 @@
-In the golden age of the boilerplate, here are my various frontend boilerplates:
+# Tweet Atsume
 
-* [master](https://github.com/wfro/frontend-boilerplates/tree/master): Vanilla ES2015, mocha/chai
-* [react-redux-hmr-client-only](https://github.com/wfro/frontend-boilerplates/tree/react-redux-hmr-client-only): client-only react/redux
-* [planned but not added yet](): react/redux with some kind of JS backend
+In the spirit of Kitty Collection we have undertaken the role of collecting Neko Atsume tweets and displaying information about those tweets.
+Meow.
 
-```
-
-# Mmmmmm vanilla
-
-Simple boilerplate for vanilla ES2015.  I typically use it for DOM experiments, katas/exercises and the like, really anything where you'd want to use ES2015 but don't have a huge list of other dependencies.
-
-Uses:
-
-* ES2015 goodness via Babel 6
-* Mocha/Chai
-* eslint (with [airbnb's config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb))
-
-## Getting 
-
-```
-npm install
-npm start
-// open http://localhost:8080
-```
-
-## Run tests
-
-```
-npm test
-
-# or
-
-npm test:watch
-```
-
-## Run the linter
-
-```
-npm run lint
-```
+## TODO
+* [ ] Set up simple express server
+* [ ] Fetch relevant Neko Atsume data from the Twitter API
+* [ ] Graph occurrences of the Neko Atsume hashtag over time
+* [ ] Graph each cat's popularity over time
