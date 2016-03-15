@@ -1,7 +1,7 @@
 {
-  "name": "babel-es2015-mocha-eslint-boilerplate",
+  "name": "tweet_atsume",
   "version": "1.0.0",
-  "description": "",
+  "description": "Meow",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --colors",
@@ -11,7 +11,7 @@
     "lint": "node_modules/eslint/bin/eslint.js ."
   },
   "keywords": [],
-  "author": "Will Faurot",
+  "author": "Regan Kuchan",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.3.26",
