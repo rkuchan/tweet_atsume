@@ -3,6 +3,15 @@
 In the spirit of Kitty Collection we have undertaken the role of collecting Neko Atsume tweets and displaying information about those tweets.
 Meow.
 
+## Setup
+```
+npm install
+```
+```
+npm start
+```
+Open `localhost:8080`
+
 ## TODO
 * [ ] Set up simple express server
 * [ ] Fetch relevant Neko Atsume data from the Twitter API
