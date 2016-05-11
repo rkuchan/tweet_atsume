@@ -1,17 +1,11 @@
-// TODO: Move AJAX request to server
-
 import reqwest from 'reqwest'
 
 reqwest({
-  url: `https://api.twitter.com/1.1/search/tweets.json?q=${encodeURIComponent('#nekoatsume')}`,
-  type: 'jsonp',
+  url: '/api/tweets',
   success: (response) => {
-    console.log(response)
+    console.log('KITTENS ',response)
   },
   error: (err) => {
     console.error('Oh no!  Something went wrong: ', err.tostring())
   },
-  headers: {
-    'Authorization': 'Bearer ' + token,
-  }
 })
