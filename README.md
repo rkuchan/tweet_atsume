@@ -13,7 +13,7 @@ npm start
 Open `localhost:8080`
 
 ## TODO
-* [ ] Set up simple express server
+* [x] Set up simple express server
 * [ ] Fetch relevant Neko Atsume data from the Twitter API
 * [ ] Graph occurrences of the Neko Atsume hashtag over time
 * [ ] Graph each cat's popularity over time
